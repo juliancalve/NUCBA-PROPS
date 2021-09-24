@@ -1,17 +1,40 @@
+
 import './App.css';
-import Button from './components/Button';
-import Title from './components/Title';
+import ChangeTitle from './components/ChangeTitle';
 
 const App = () => {
 
-  const pruebita = 'SOY PRUEBA';
+//
+  // const  persona = {
+  //   name: 'pepito',
+  //   age: 40
+  // }
+
+  // const example = ({ name }) => {
+  //   console.log(name);
+  // }
+
+  // example(persona);
+//
+
+  // let pruebita = 'SOY PRUEBA';
+
+  // const changePruebita = () => {
+  //   console.log('antes: ', pruebita);
+  //   pruebita = 'Ya no soy una prueba';
+  //   console.log('despues: ', pruebita);
+  // }
 
   return (
     <div className="App">
-      <header style={{}} className="App-header">
-        <Title text='Hola probando el titulo' subtitulo='Hola soy un subtitulo' />
+      <header className="App-header">
+        {/* <Title text='Hola probando el titulo' subtitulo='Hola soy un subtitulo' />
         <Title text={pruebita} />
-        <Button text='clickeame!!!!'/>
+        <Button text='Mostrar Info!!!!' miFuncion={showAlert}/> */}
+        {/* <p>{pruebita}</p>
+        <button onClick={changePruebita}>cambiar texto</button> */}
+        {/* <Button text='Login!!!!' miFuncion={onLogin} /> */}
+        <ChangeTitle />
       </header>
     </div>
   );

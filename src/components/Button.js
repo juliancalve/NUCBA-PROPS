@@ -1,11 +1,7 @@
-const Button = (props) => {
-
-    const handleClick = () => {
-        alert('Me clickeaste!!!');
-    }
+const Button = ({text, miFuncion}) => {
 
     return (
-        <button onClick={handleClick} type='button'>{props.text}</button>
+            <button onClick={miFuncion} type='button'>{text}</button>
     )
 }
 

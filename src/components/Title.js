@@ -1,11 +1,12 @@
-const Title = (props) => {
+const Title = ({text, subtitulo}) => {
 
-    console.log(props);
+    console.log({text, subtitulo});
 
     return(
         <div>
-            <h1 >{props.text}</h1>
-            {props.subtitulo && <h5>{props.subtitulo}</h5>}
+            <h1 >{text}</h1>
+            
+            {subtitulo && <h5>{subtitulo}</h5>}
         </div>
     )
 };
