@@ -13,7 +13,6 @@ const Title = ({text, subtitulo}) => {
 
 export default Title;
 
-
 //Tipos de export
 
 // const TitleDefault = () => {

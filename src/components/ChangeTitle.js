@@ -1,9 +1,16 @@
 // useState
 import { useState } from 'react';
 
-const ChangeTitle = () => {
+const ChangeTitle = ({ firstName }) => {
 
     // let title = 'soy un titulo';
+    //Un estado, se crea primero definiendo el tipo de dato ( siempre va a ser const )
+    // despues tenemos que crear un arreglo, el cual va a contener como primer dato
+    // el identificador de nuestro estado ( [name]).
+    // despues del identificador va a ser el setter ( setName ) // [ name, setName ]
+    // y por ultimo se iguala a useState() y dentro de los parametros se define el valor inicial
+    // qudaria asi : const [name, setName] = useState(firstName);
+    // para modificarlo, se utiliza su settet ejemplo:  setName('juan') 
     const [title, setTitle] = useState('soy un titulo');
     const [title1, setTitle1] = useState('soy el titulo1');
 

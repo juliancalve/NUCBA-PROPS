@@ -1,6 +1,7 @@
 
 import './App.css';
-import ChangeTitle from './components/ChangeTitle';
+import Form from './components/Form/Form';
+// import ChangeTitle from './components/ChangeTitle';
 
 const App = () => {
 
@@ -28,13 +29,14 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <Form />
         {/* <Title text='Hola probando el titulo' subtitulo='Hola soy un subtitulo' />
         <Title text={pruebita} />
         <Button text='Mostrar Info!!!!' miFuncion={showAlert}/> */}
         {/* <p>{pruebita}</p>
         <button onClick={changePruebita}>cambiar texto</button> */}
         {/* <Button text='Login!!!!' miFuncion={onLogin} /> */}
-        <ChangeTitle />
+        {/* <ChangeTitle /> */}
       </header>
     </div>
   );
