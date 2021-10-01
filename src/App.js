@@ -1,7 +1,10 @@
 
 import './App.css';
-import Form from './components/Form/Form';
+import CreateUser from './components/CreateUser/CreateUser';
+// import AxiosComponent from './components/Axios/Axios';
+// import Form from './components/Form/Form';
 // import ChangeTitle from './components/ChangeTitle';
+// import Fetch from './components/Fetch/Fetch';
 
 const App = () => {
 
@@ -29,7 +32,8 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Form />
+        <CreateUser />
+        {/* <Fetch /> */}
         {/* <Title text='Hola probando el titulo' subtitulo='Hola soy un subtitulo' />
         <Title text={pruebita} />
         <Button text='Mostrar Info!!!!' miFuncion={showAlert}/> */}
